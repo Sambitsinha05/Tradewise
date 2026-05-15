@@ -14,7 +14,7 @@ export const useSocketStore = create((set, get) => ({
     if (socket?.connected) return;
 
     // Connect to the backend socket server
-    socket = io('http://localhost:5000', {
+    socket = io('https://tradewise-xa7h.onrender.com', {
       transports: ['websocket'],
     });
 
