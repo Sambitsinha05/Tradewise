@@ -1,5 +1,8 @@
 # TradeWise - Institutional Grade Fintech Platform
 
+
+demo :http://localhost:5173/
+
 TradeWise is a modern, full-stack trading simulation and portfolio management platform designed to provide a realistic, institutional-grade experience. It features real-time simulated market data, deep quantitative analytics, dual-currency support, and behavioral trading insights.
 
 ## Features
