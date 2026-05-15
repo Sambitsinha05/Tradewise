@@ -46,17 +46,7 @@ TradeWise is a modern, full-stack trading simulation and portfolio management pl
    cd ../backend
    npm install
    ```
-3. **Environment Setup**
-   Create a `.env` file in the `backend` directory:
-   ```env
-   NODE_ENV=development
-   PORT=5000
-   MONGO_URI=your_mongodb_uri
-   JWT_SECRET=your_jwt_secret
-   CLIENT_URL=http://localhost:5173
-   FINNHUB_API_KEY=your_finnhub_key (optional, will fallback to simulation)
-   ALPHA_VANTAGE_API_KEY=your_alphavantage_key (optional)
-   ```
+
 4. **Run the Application**
    Open two terminals:
    ```bash
