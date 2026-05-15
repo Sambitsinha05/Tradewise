@@ -13,7 +13,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://tradewise-xa7h.onrender.com',
         changeOrigin: true,
       },
     },
